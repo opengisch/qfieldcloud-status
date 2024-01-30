@@ -13,7 +13,7 @@ See also:
 ```
 ---
 title: Degraded service
-date: yyyy-mm-dd hh:MM:00
+date: yyyy-mm-dd hh:MM:00  # In UTC, see https://www.utctime.net/
 resolved: false
 # resolvedWhen: [yyyy-mm-dd hh:MM:00]
 # Possible severity levels: down, disrupted, notice
@@ -44,13 +44,14 @@ We believe the connectivity issues are being caused by an isolated ISP issue. We
 ```
 ---
 title: Maintenance Announcement 
-date: [yyyy-mm-dd] [hh:MM:00]
+date: [yyyy-mm-dd  hh:MM:00] # In UTC, see https://www.utctime.net/
 informational: true
 pin: true
 section: issue
 ---
 
-We will upgrade app.qfield.cloud to the latest release
+We will upgrade app.qfield.cloud to the latest release.
+Expected duration: 2 hours.
 ```
 
 3. when you are done, set `pin` to `false`
