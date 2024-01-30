@@ -45,6 +45,10 @@
 # Shows up in the browser bar and meta tags
 title: QField Ecosystem Status
 
+# Allow overwriting pages in the layouts folder
+# see https://github.com/cstate/cstate/wiki/Customization
+enableCustomHTML: true
+
 # Should posts, which have a publish date
 # from the future, be built? Useful for
 # sharing upcoming maintenance, etc.
@@ -362,10 +366,6 @@ params:
   #
   # Default: UA-00000000-1
   googleAnalytics: UA-00000000-1
-
-  # Allow overwriting pages in the layouts folder
-  # see https://github.com/cstate/cstate/wiki/Customization
-  enableCustomHTML: true
 
 # These options affect the core of cState.
 # Please do not change them if you do not
