@@ -363,6 +363,10 @@ params:
   # Default: UA-00000000-1
   googleAnalytics: UA-00000000-1
 
+  # Allow overwriting pages in the layouts folder
+  # see https://github.com/cstate/cstate/wiki/Customization
+  enableCustomHTML: true
+
 # These options affect the core of cState.
 # Please do not change them if you do not
 # know what you are doing.
