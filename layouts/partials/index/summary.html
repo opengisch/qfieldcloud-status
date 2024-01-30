@@ -5,6 +5,10 @@
 {{ $isDisrupted := where $active "Params.severity" "=" "disrupted" }}
 {{ $isDown := where $active "Params.severity" "=" "down" }}
 
+<div class="pre-summary">
+  <a href="https://status.qfield.cloud"></a><img src="https://api.checklyhq.com/v1/badges/groups/262175?style=flat&theme=default"></a>
+</div>
+
 <div class="summary">
   <strong>
     {{ if $isDown }}
@@ -22,5 +26,3 @@
 
   <div class="summary__date clicky float-right relative-time" onclick="location.reload()" data-time-prefix="{{ T "lastChecked" }} "></div>
 </div>
-
-<a href="https://status.qfield.cloud"></a><img src="https://api.checklyhq.com/v1/badges/groups/262175?style=flat&theme=default"></a>
