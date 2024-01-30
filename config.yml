@@ -45,10 +45,6 @@
 # Shows up in the browser bar and meta tags
 title: QField Ecosystem Status
 
-# Allow overwriting pages in the layouts folder
-# see https://github.com/cstate/cstate/wiki/Customization
-enableCustomHTML: true
-
 # Should posts, which have a publish date
 # from the future, be built? Useful for
 # sharing upcoming maintenance, etc.
@@ -123,6 +119,10 @@ enableGitInfo: true
 ############################################################
 
 params:
+  # Allow overwriting pages in the layouts folder
+  # see https://github.com/cstate/cstate/wiki/Customization
+  enableCustomHTML: true
+
   # Before setting up your systems, you need
   # to first define at least one category.
   #
