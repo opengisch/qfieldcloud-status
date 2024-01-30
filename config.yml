@@ -285,7 +285,7 @@ params:
   customTabs:
    -
      name: Monitoring
-     link: https://example.com
+     link: https://status.qfield.cloud
 
   # Disable complex server-side
   # calculations that may impact
