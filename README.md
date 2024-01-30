@@ -1,6 +1,6 @@
-# cState Site v5.5
+# QField Ecosystem Status page
 
-This is the default cState status page website directory/folder.
+See also:
 
 * Example site repository link (you are here): https://github.com/cstate/example
 * Main cState source code repository: https://github.com/cstate/cstate
