@@ -289,7 +289,7 @@ params:
   customTabs:
    -
      name: Monitoring
-     link: https://status.qfield.cloud
+     link: https://qfield.checkly-dashboards.com/
 
   # Disable complex server-side
   # calculations that may impact
