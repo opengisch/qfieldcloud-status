@@ -1,6 +1,6 @@
 ---
 title: Maintenance Announcement 
-date: [yyyy-mm-dd  hh:MM:00] # In UTC, see https://www.utctime.net/
+date: 2024-02-01  22:25:00
 informational: true
 pin: true
 section: issue
