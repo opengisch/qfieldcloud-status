@@ -8,7 +8,8 @@ See also:
 ## Adding and updating an incident
 
 1. create a new file in `content/issues` with the name `[yyyy-mm-dd]-incident.md`
-2. copy the following block
+2. copy the following block. Make sure to replace the `[yyyy-mm-dd  hh:MM:00]`
+   with the incident/update date and time in exactly this format and UTC!
 
 ```
 ---
@@ -39,7 +40,8 @@ We believe the connectivity issues are being caused by an isolated ISP issue. We
 ## Adding and updating a planned maintenance
 
 1. create a new file in `content/issues` with the name `[yyyy-mm-dd]-maintenance-window.md`
-2. copy the following block
+2. copy the following block. Make sure to replace the `[yyyy-mm-dd  hh:MM:00]`
+   with the planned date in exactly this format and UTC!
 
 ```
 ---
