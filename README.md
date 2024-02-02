@@ -1,9 +1,8 @@
 # QField Ecosystem Status page
 
-See also:
+Static page that show the current state of the QFieldCloud service running at https://app.qfield.cloud.
 
-* Example site repository link (you are here): https://github.com/cstate/example
-* Main cState source code repository: https://github.com/cstate/cstate
+Powered by static site generator called [cState](https://github.com/cstate/cstate).
 
 ## Adding and updating an incident
 
@@ -60,26 +59,29 @@ Expected duration: 2 hours.
 
 ## Are you updating? Use these commands
 
-Download your site with all the directories. `git clone --recursive <your repo link goes here>`
+1. Download your site with all the directories:
 
-Update the cState theme submodule. `git submodule foreach git pull origin master`
+```
+git clone --recursive git@github.com:opengisch/qfieldcloud-status.git
+```
 
-In the parent directory, type `hugo serve`. Check to see if everything is working.
+2. Update the cState theme submodule:
 
-Then do `git add -A; git commit -m "Update cState"; git push origin <branch, probably main or master>`. Your status page is now updated and uploaded.
+```
+git submodule foreach git pull origin master
+```
 
+3. Check to see if everything is working from the root of the repository:
 
-## For maintainers (probably not for you)
+```
+hugo serve
+```
 
-Maintainers need to update both cstate/cstate and cstate/example for each new version.
+4. Update the status page on the internet bu pushing all the local changes:
 
-Download this repo with all the directories. `git clone --recursive -b master https://github.com/cstate/example.git`
-
-Add your changes from cstate/cstate's exampleSite folder.
-
-Update the cState theme submodule. `git submodule foreach git pull origin master`
-
-Then push `git add -A; git commit -m "Update cState vX.X.X"; git push origin master`.
+```
+git add -A; git commit -m "Update cState"; git push origin master
+```
 
 ## License
 
