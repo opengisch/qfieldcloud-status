@@ -1,15 +1,1 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>QField Ecosystem Status</title><link>https://opengisch.github.io/qfieldcloud-status/</link><description>Incident history</description><generator>github.com/cstate</generator><language>en</language><lastBuildDate>Thu, 07 Mar 2024 22:00:00 +0000</lastBuildDate><atom:link href="https://opengisch.github.io/qfieldcloud-status/index.xml" rel="self" type="application/rss+xml"/><item><title>Maintenance Announcement</title><link>https://opengisch.github.io/qfieldcloud-status/issues/2024-03-07-maintenance-window/</link><pubDate>Thu, 07 Mar 2024 22:00:00 +0000</pubDate><guid>https://opengisch.github.io/qfieldcloud-status/issues/2024-03-07-maintenance-window/</guid><category/><description>&lt;p>We will upgrade app.qfield.cloud to the latest release&lt;/p></description></item><item><title>Maintenance Announcement</title><link>https://opengisch.github.io/qfieldcloud-status/issues/2024-02-01-maintenance-window/</link><pubDate>Thu, 01 Feb 2024 22:25:00 +0000</pubDate><guid>https://opengisch.github.io/qfieldcloud-status/issues/2024-02-01-maintenance-window/</guid><category/><description>&lt;p>We will upgrade app.qfield.cloud to the latest release.
-Expected duration: 1 minute.&lt;/p></description></item><item><title>[Resolved] Degraded service</title><link>https://opengisch.github.io/qfieldcloud-status/issues/2024-30-01-incident/</link><pubDate>Tue, 30 Jan 2024 17:12:00 +0000</pubDate><guid>https://opengisch.github.io/qfieldcloud-status/issues/2024-30-01-incident/</guid><category>2024-02-01 23:27:00</category><description>&lt;p>&lt;em>Resolved&lt;/em> -
-We believe all users experiencing issues have been able to connect at this time.
-&lt;span class="faded">(23:27 UTC — Feb 1)&lt;/span>
-&lt;/p>
-&lt;p>&lt;em>Monitoring&lt;/em> -
-We believe the connectivity issues are being caused by an isolated ISP issue. We&amp;rsquo;ve had reports that swapping to Google DNS servers (see here; &lt;a href="https://developers.google.com/speed/public-dns/docs/using">https://developers.google.com/speed/public-dns/docs/using&lt;/a>) resolves the problem for users.
-&lt;span class="faded">(14:00 UTC — Jan 31)&lt;/span>
-&lt;/p>
-&lt;p>&lt;em>Investigating&lt;/em>&lt;/p>
-&lt;ul>
-&lt;li>We&amp;rsquo;re aware of reports that users are experiencing some random problems. We&amp;rsquo;re currently investigating these issues, and apologize for any inconvenience it may be causing you.
-&lt;span class="faded">(17:12 UTC — Jan 30)&lt;/span>
-&lt;/li>
-&lt;/ul></description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>QField Ecosystem Status</title><link>https://opengisch.github.io/qfieldcloud-status/</link><description>Incident history</description><generator>github.com/cstate</generator><language>en</language><atom:link href="https://opengisch.github.io/qfieldcloud-status/index.xml" rel="self" type="application/rss+xml"/></channel></rss>
