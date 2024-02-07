@@ -1,6 +1,6 @@
 # QField Ecosystem Status page
 
-Static page that show the current state of the QFieldCloud service running at https://app.qfield.cloud.
+The static page on https://status.qfield.cloud that shows the current state of the QFieldCloud service running at https://app.qfield.cloud.
 
 Powered by static site generator called [cState](https://github.com/cstate/cstate).
 
