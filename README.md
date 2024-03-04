@@ -39,13 +39,13 @@ We believe the connectivity issues are being caused by an isolated ISP issue. We
 ## Adding and updating a planned maintenance
 
 1. create a new file in `content/issues` with the name `[yyyy-mm-dd]-maintenance-window.md`
-2. copy the following block. Make sure to replace the `[yyyy-mm-dd  hh:MM:00]`
+2. copy the following block. Make sure to replace the `[yyyy-mm-dd hh:MM:00]`
    with the planned date in exactly this format and UTC!
 
 ```
 ---
 title: Maintenance Announcement 
-date: [yyyy-mm-dd  hh:MM:00] # In UTC, see https://www.utctime.net/
+date: [yyyy-mm-dd hh:MM:00] # In UTC, see https://www.utctime.net/
 informational: true
 pin: true
 section: issue
