@@ -1,8 +1,8 @@
 ---
 title: Maintenance Announcement 
-date: 2024-03-24 20:00:00
+date: 2024-03-25 20:00:00
 informational: true
-pin: false
+pin: true
 section: issue
 ---
 
