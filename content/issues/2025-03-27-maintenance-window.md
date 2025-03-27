@@ -7,4 +7,4 @@ section: issue
 ---
 
 We will upgrade app.qfield.cloud to the latest release.
-Expected duration: 1 hours.
+Expected duration: 3 hours.
