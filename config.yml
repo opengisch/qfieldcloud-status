@@ -288,7 +288,7 @@ params:
   # Format:
   customTabs:
    -
-     name: Monitoring
+     name: Monitoring 🔗
      link: https://qfield.checkly-dashboards.com/
 
   # Disable complex server-side
