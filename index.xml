@@ -1,4 +1,17 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>QField Ecosystem Status</title><link>https://status.qfield.org/</link><description>Incident history</description><generator>github.com/cstate</generator><language>en</language><lastBuildDate>Mon, 04 Aug 2025 18:00:00 +0000</lastBuildDate><atom:link href="https://status.qfield.org/index.xml" rel="self" type="application/rss+xml"/><item><title>[Resolved] Degraded service</title><link>https://status.qfield.org/issues/2025-08-04-incident/</link><pubDate>Mon, 04 Aug 2025 18:00:00 +0000</pubDate><guid>https://status.qfield.org/issues/2025-08-04-incident/</guid><category>2025-08-11 23:00:00</category><description>&lt;p>We are experiencing stability problems on the system at the moment and are looking into it.&lt;/p>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>QField Ecosystem Status</title><link>https://status.qfield.org/</link><description>Incident history</description><generator>github.com/cstate</generator><language>en</language><lastBuildDate>Tue, 19 Aug 2025 15:00:00 +0000</lastBuildDate><atom:link href="https://status.qfield.org/index.xml" rel="self" type="application/rss+xml"/><item><title>Degraded service</title><link>https://status.qfield.org/2025-08-19-incident/</link><pubDate>Tue, 19 Aug 2025 15:00:00 +0000</pubDate><guid>https://status.qfield.org/2025-08-19-incident/</guid><category/><description>&lt;!-- raw HTML omitted -->
+&lt;!-- raw HTML omitted -->
+&lt;p>&lt;em>Investigating&lt;/em>&lt;/p>
+&lt;ul>
+&lt;li>We have isolated the core issue and are preparing a patch to be rolled out soon.
+&lt;span class="faded">(16:25 UTC — Aug 19)&lt;/span>
+&lt;/li>
+&lt;/ul>
+&lt;p>&lt;em>Investigating&lt;/em>&lt;/p>
+&lt;ul>
+&lt;li>We are experiencing a service level problem on app.qfield.cloud and have stopped the workers while we are investigating. Jobs are being accumulated and will be processed once the issue is resolved.
+&lt;span class="faded">(15:00 UTC — Aug 19)&lt;/span>
+&lt;/li>
+&lt;/ul></description></item><item><title>[Resolved] Degraded service</title><link>https://status.qfield.org/issues/2025-08-04-incident/</link><pubDate>Mon, 04 Aug 2025 18:00:00 +0000</pubDate><guid>https://status.qfield.org/issues/2025-08-04-incident/</guid><category>2025-08-11 23:00:00</category><description>&lt;p>We are experiencing stability problems on the system at the moment and are looking into it.&lt;/p>
 &lt;p>Update 2025-08-04: We were able to recover services and are observing the situation.&lt;/p>
 &lt;p>Update 2025-08-09: The instabilities surfaced again and we could identify the source. It is related to projects with many files which cause a lot of internal requests and memory usage and therefore take too long to respond. A patch is deployed and being monitored.&lt;/p>
 &lt;p>Update 2025-08-11: The initial patch did cause unintended side effects and didn&amp;rsquo;t resolve the problem and different attempts to mitigate the issue resulted in service instabilities and problems with accessing the storage backend which prevented some users from uploading files. We have now identified the main source of troubles and are deploying an improved and tested hotfix.&lt;/p>
