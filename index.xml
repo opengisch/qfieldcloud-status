@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>QField Ecosystem Status</title><link>https://status.qfield.org/</link><description>Incident history</description><generator>github.com/cstate</generator><language>en</language><lastBuildDate>Tue, 19 Aug 2025 15:00:00 +0000</lastBuildDate><atom:link href="https://status.qfield.org/index.xml" rel="self" type="application/rss+xml"/><item><title>Degraded service</title><link>https://status.qfield.org/2025-08-19-incident/</link><pubDate>Tue, 19 Aug 2025 15:00:00 +0000</pubDate><guid>https://status.qfield.org/2025-08-19-incident/</guid><category>2025-08-19 17:20:00</category><description>&lt;!-- raw HTML omitted -->
 &lt;!-- raw HTML omitted -->
-&lt;p>&lt;em>Monitoring&lt;/em> -&lt;/p>
+&lt;p>&lt;em>Monitoring&lt;/em>&lt;/p>
 &lt;ul>
 &lt;li>We have rolled out a patch that should have solved the suspected issue. The systems are now under close monitoring. Jobs have been restarted and will be processed in the next few hours.
 &lt;span class="faded">(16:25 UTC — Aug 19)&lt;/span>
