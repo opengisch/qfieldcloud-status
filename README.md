@@ -24,10 +24,10 @@ section: issue
 ---
 
 <!-- *Resolved* -
-We believe all users experiencing issues have been able to connect at this time. {{< track "yyyy-mm-dd hh:MM:00" >}}
+We believe all users experiencing issues have been able to connect at this time.
 
 *Monitoring* -
-We believe the connectivity issues are being caused by an isolated ISP issue. We've had reports that swapping to Google DNS servers (see here; https://developers.google.com/speed/public-dns/docs/using) resolves the problem for users. {{< track "yyyy-mm-dd hh:MM:00" >}}
+We believe the connectivity issues are being caused by an isolated ISP issue. We've had reports that swapping to Google DNS servers (see here; https://developers.google.com/speed/public-dns/docs/using) resolves the problem for users.
 -->
 *Investigating*
 - We're aware of reports that users are experiencing some random problems. We're currently investigating these issues, and apologize for any inconvenience it may be causing you. {{< track "yyyy-mm-dd hh:MM:00" >}}
