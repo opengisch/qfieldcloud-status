@@ -157,9 +157,9 @@ params:
   #
   # For help, see the wiki:
   # https://github.com/cstate/cstate/wiki/Customization
-  systems:
-    - name: app.qfield.cloud
-      category: QFieldCloud
+  # systems:
+  #   - name: app.qfield.cloud
+  #     category: QFieldCloud
 
   # What date format to use?
   #
