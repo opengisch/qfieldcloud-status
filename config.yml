@@ -157,9 +157,10 @@ params:
   #
   # For help, see the wiki:
   # https://github.com/cstate/cstate/wiki/Customization
-  # systems:
-  #   - name: app.qfield.cloud
-  #     category: QFieldCloud
+  systems:
+    - name: app.qfield.cloud
+      category: QFieldCloud
+      link: https://app.qfield.cloud/
 
   # What date format to use?
   #
@@ -301,7 +302,7 @@ params:
   #
   # Default: `false`
   # BOOLEAN; `true`, `false`
-  disableComplexCalculations: false
+  disableComplexCalculations: true
 
   # Incident posts shown
   # in one page
