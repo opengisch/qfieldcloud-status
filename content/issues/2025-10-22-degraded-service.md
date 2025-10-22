@@ -1,6 +1,6 @@
 ---
 title: Degraded service
-date: 2025-20-22 08:00:00
+date: 2025-10-22 08:00:00
 resolved: false
 # resolvedWhen: 2025-08-19 17:20:00
 # Possible severity levels: down, disrupted, notice
