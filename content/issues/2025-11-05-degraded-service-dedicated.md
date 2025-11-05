@@ -9,7 +9,7 @@ section: issue
 ---
 
 *Resolved*
-- Our upstream provider had a power outage which lead to equipment failing and systems not being reachable. The power has been restored, core routers and hypervisors are back up and running.
+- Our upstream provider had a power outage which led to equipment failing and systems not being reachable. The power has been restored, core routers and hypervisors are back up and running.
 - All QFieldCloud Dedicated instances are reachable again.
 
 We’re sorry for the inconvenience caused by this incident.
