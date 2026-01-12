@@ -9,6 +9,7 @@ affected: # See systems in https://github.com/opengisch/qfieldcloud-status/blob/
 section: issue
 ---
 
-*Investigating*
+*Ongoing*
+- Our infrastructure provider has posted an update that the issue is linked to a single rack, and they are still working on mitigations.
 - Our upstream infrastructure provider is experiencing an issue that is causing increased internet network latencies and packet loss. They are working on resolving the problem.
 - We are experiencing a service degradation on app.qfield.cloud. We are investigating the cause of the issue and will provide further updates as soon as possible.
