@@ -1,6 +1,7 @@
 ---
 title: Degraded service
 date: 2026-01-12 12:00:00
+resolved: false
 # Possible severity levels: down, disrupted, notice
 severity: disrupted
 affected: # See systems in https://github.com/opengisch/qfieldcloud-status/blob/master/config.yml
