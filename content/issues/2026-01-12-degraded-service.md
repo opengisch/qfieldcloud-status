@@ -1,13 +1,17 @@
 ---
 title: Degraded service
 date: 2026-01-12 12:00:00
-resolved: false
+resolved: true
+resolvedWhen: 2026-01-12 13:20:00
 # Possible severity levels: down, disrupted, notice
 severity: disrupted
 affected: # See systems in https://github.com/opengisch/qfieldcloud-status/blob/master/config.yml
   - app.qfield.cloud
 section: issue
 ---
+
+*Resolved*
+- Our upstream infrastructure provider has resolved the infrastructure issue affecting the single rack. All services are now operating normally.
 
 *Ongoing*
 - Our infrastructure provider has posted an update that the issue is linked to a single rack, and they are still working on mitigations.
