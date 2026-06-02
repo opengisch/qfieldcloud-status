@@ -1,6 +1,6 @@
 ---
 title: Maintenance Announcement
-date: 2026-05-27 17:00:00
+date: 2026-06-03 17:00:00
 informational: true
 pin: true
 section: issue
